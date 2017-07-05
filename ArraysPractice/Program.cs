@@ -78,20 +78,59 @@ namespace ArraysPractice
             ////converts int to string -- To.String method builds strings
             //string firstIndex = ageOfStudentsInClass[0].ToString();
 
+            //string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chick Fil-A" };
+            ////like how many characters in string = 5
+            //Console.WriteLine(restaurantsInMall.Length);
+
+            ////for review
+            ////declare and not initialize
+            //int[] myIntArrayAgain;
+            ////declare and initialize an array when I know the elements
+            //char[] lettersInFirstName = { 'D', 'a', 'n', 'i', 'e', 'l' };
+            ////declare and initialize an array when I don't know the elements, only how many elements there will be
+            //string[] variableName = new string[42];
+
+            //to practice using .Length, create a char array of the letters in your middle name
+            //print the number of char's to the console
+            //char[] lettersInMiddleName = { 'L', 'y', 'n', 'n' };
+            //Console.WriteLine(lettersInMiddleName.Length);
+
+            //declare and initialize a string array
+            //using the length property, print the second to last element in the array
+            //string[] favCar = { "'65 Stingray", "'04 Eclipse", "'11 Caliber" };
+            //int numCars = favCar.Length;
+            ////looking for the index of 1
+            ////Console.WriteLine(favCar[1]);
+            //Console.WriteLine(favCar[numCars-2]);
+            ////or without setting new int variable
+            //Console.WriteLine(favCar[favCar.Length - 2]);
+
+            //indexOf is a method used to search an array for a specified value and returns
+            //the index position of the first matching value found
+            //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            ////capital Array is an object, like String, Console, etc.
+            //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
+            ////run it = 0, first instance of 1985 is at index 0
+
+            ////LastIndexOf is a method used to search an array for a specified value and returns
+            ////the index position of the last matching value found, reading right to left
+            //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
+            ////run it = 4
+
+            //reverse method
+            //int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
+            //Array.Reverse(palindromeNumbers);
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
 
 
 
 
-             
 
 
-
-
-
-
-
-
-
+            
 
 
 
