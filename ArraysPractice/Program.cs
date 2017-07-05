@@ -125,12 +125,64 @@ namespace ArraysPractice
             //Console.WriteLine(palindromeNumbers[0]);
             //Console.WriteLine(palindromeNumbers[2]);
 
+            //sort (if numbers, ascending order from lowest to highest)
+            //sort (if characters or strings, alphabetical order from a-z)
+
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Blue", "Red", "Black" };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
+            ////if there is a lower case, lower case takes precedance
+            //string[] powerRanger = { "Green", "Yellow", "Pink", "Blue", "Red", "Black", "black" };
+            //Console.WriteLine(powerRanger[0]);
+            //Array.Sort(powerRanger);
+            //Console.WriteLine(powerRanger[0]);
+
+            //Practice #1 Declare and initialize a string array of first names. Choose a name to find and print the IndexOf.
+            string[] firstNames = { "Jon", "Bill", "Kaci", "Mary" };
+            Console.WriteLine(Array.IndexOf(firstNames, Jon));
+
+            //Practice #2 Create an array of lucky numbers. Each number should repeat at least once. 
+            //Choose a lucky number, find and print the last index of it.
+            int[] luckyNumbers = { 17, 3, 75, 11, 44, 17, 21, 3, 44, 11, 75, 3, 21 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 44));
+
+            //Practice #3 Create an array of alphabet characters. Print the first index of the array. 
+            //Now reverse the array and print the first index.
+            char[] alphabet = { 'q', 'a', 'm', 'd', 't' };
+            Console.WriteLine(alphabet[0]);
+            Array.Reverse(alphabet);
+            Console.WriteLine(alphabet[0]);
+
+            //Practice #4 Create an array of student names in random order. Order the students’ names using the sort method. 
+            //Print the first and last students’ names.
+            string[] studentNames = { "Jon", "Bill", "Kaci", "Mary" };
+            Array.Sort(studentNames);
+            Console.WriteLine(studentNames[0]);
+            Console.WriteLine(studentNames[3]);
+
+            //Practice #5 Ask 10 people for their favorite numbers and create an array of those numbers.
+            //Order the numbers using the sort method. Print the first and last numbers.
+            int[] = favNum;
+            Console.WriteLine("Enter your favorite number: ");
+
+            //HOMEWORK: correct #1, finish #5
 
 
 
 
 
-            
+
+
+
+
+
+
+
+
+
+
+
 
 
 
