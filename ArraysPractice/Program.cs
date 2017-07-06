@@ -105,8 +105,8 @@ namespace ArraysPractice
             ////or without setting new int variable
             //Console.WriteLine(favCar[favCar.Length - 2]);
 
-            //indexOf is a method used to search an array for a specified value and returns
-            //the index position of the first matching value found
+            ////indexOf is a method used to search an array for a specified value and returns
+            ////the index position of the first matching value found
             //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
             ////capital Array is an object, like String, Console, etc.
             //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
@@ -140,7 +140,7 @@ namespace ArraysPractice
 
             //Practice #1 Declare and initialize a string array of first names. Choose a name to find and print the IndexOf.
             string[] firstNames = { "Jon", "Bill", "Kaci", "Mary" };
-            Console.WriteLine(Array.IndexOf(firstNames, Jon));
+            Console.WriteLine(Array.IndexOf(firstNames, "Bill"));
 
             //Practice #2 Create an array of lucky numbers. Each number should repeat at least once. 
             //Choose a lucky number, find and print the last index of it.
@@ -163,10 +163,32 @@ namespace ArraysPractice
 
             //Practice #5 Ask 10 people for their favorite numbers and create an array of those numbers.
             //Order the numbers using the sort method. Print the first and last numbers.
-            int[] = favNum;
-            Console.WriteLine("Enter your favorite number: ");
+            int[] favNumArray = new int[10];
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[0] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[1] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[2] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[3] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[4] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[5] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[6] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[7] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[8] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your favorite number");
+            favNumArray[9] = int.Parse(Console.ReadLine()); ;
+            Array.Sort(favNumArray);
+            Console.WriteLine(favNumArray[0]);
+            Console.WriteLine(favNumArray[9]);
 
-            //HOMEWORK: correct #1, finish #5
+
 
 
 
